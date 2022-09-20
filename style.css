@@ -6,4 +6,49 @@
 
 body {
   font-family: "Manrope", sans-serif;
+  background: #080c20;
+}
+
+.logo {
+  width: 120px;
+  height: 35px;
+  margin-top: 81px;
+  margin-left: 165px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 153px;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: url("./assets/images/bg-hero-squiggle.svg") no-repeat center
+    center;
+  background-size: cover;
+}
+
+.hero__title {
+  max-width: 667px;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 56px;
+  color: #ffffff;
+}
+
+.hero__title strong {
+  color: #3ee9e5;
+}
+
+.hero__description {
+  max-width: 500px;
+  font-size: 15px;
+  margin-top: 13px;
+  line-height: 25px;
+  color: #777f98;
 }
