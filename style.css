@@ -52,3 +52,48 @@ body {
   line-height: 25px;
   color: #777f98;
 }
+
+.benefits {
+  margin-top: 202px;
+}
+
+.benefits__list {
+  display: flex;
+  gap: 125px;
+
+  align-items: center;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.benefits__image-list {
+  width: 160px;
+  height: 164px;
+  padding: 26px;
+  background: #093f68;
+  border-radius: 48px;
+  object-fit: contain;
+}
+
+.benefts__image-top {
+  margin-top: 68px;
+}
+
+.benefits__title-list {
+  display: flex;
+  padding-top: 48px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.benefits__description-list {
+  font-weight: 500;
+  max-width: 255px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #777f98;
+  padding-top: 23px;
+}
