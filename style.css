@@ -23,11 +23,6 @@ body {
 }
 
 .hero__content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   background: url("./assets/images/bg-hero-squiggle.svg") no-repeat center
     center;
   background-size: cover;
@@ -96,4 +91,107 @@ body {
   line-height: 25px;
   color: #777f98;
   padding-top: 23px;
+}
+
+.pricing__title {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 215px;
+}
+
+.pricing__description {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 19px;
+
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+.pricing__box {
+  background: #093f68;
+  border-radius: 8px;
+  width: 445px;
+  height: 425px;
+  margin-top: 1px;
+  padding: 38px;
+  color: white;
+}
+
+.pricing__box-light {
+  color: #080c20;
+  background: #3ee9e5;
+}
+
+.pricing__box-title {
+  font-weight: 800px;
+  font-size: 18px;
+  line-height: 25px;
+
+  padding-top: 49px;
+}
+
+.pricing__box-price {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 55px;
+  margin-top: 24px;
+
+  display: block;
+  margin-top: 24px;
+}
+
+.pricing__benefits-list {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  display: grid;
+  gap: 12px;
+
+  margin-top: 19px;
+}
+
+.pricing {
+  gap: 50px;
+  gap: 125px;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing__container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 119px;
+  justify-content: center;
+}
+
+.pricing__paid-image {
+  margin-top: -60px;
+  display: block;
+}
+
+.pricing__box-description {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  margin-top: 19px;
+}
+
+.pricing__box-price span {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+
+  mix-blend-mode: normal;
+  opacity: 0.6;
 }
