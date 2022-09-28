@@ -195,3 +195,68 @@ body {
   mix-blend-mode: normal;
   opacity: 0.6;
 }
+
+.notification {
+  background: url("./assets/images/bg-hero-squiggle.svg") no-repeat center
+    center;
+  background-size: contain;
+  margin-top: 177px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 228px;
+  margin: 177px 0;
+}
+
+.notification__title {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.notification__mail {
+  width: 320px;
+  height: 48px;
+  box-sizing: border-box;
+  background: #093f68;
+  border: 2px solid #ff2965;
+  border-radius: 24px;
+  padding-top: 12px;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 25px;
+  margin-top: 42px;
+  padding-left: 18px;
+}
+.notification__button {
+  text-align: center;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 25px;
+  width: 140px;
+  height: 48px;
+  margin-top: 42px;
+  color: white;
+  box-sizing: border-box;
+  background: transparent;
+  border: 2px solid #3ee9e5;
+  border-radius: 24px;
+}
+.notification__mail-address {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 25px;
+  color: #ff2965;
+  margin-top: 4px;
+  margin-left: 53px;
+}
+
+.notification__container {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
